@@ -1,55 +1,67 @@
 # 📰 Fake News Detection using Machine Learning
 
-This project is part of the **Tamizhan Skills Rise Internship (Domain: Machine Learning & AI)** and focuses on detecting whether a given news article is **real** or **fake** using Natural Language Processing (NLP) and supervised learning techniques.
+This project is part of the **Tamizhan Skills Rise Internship (Domain: Machine Learning & AI)**. It uses Natural Language Processing (NLP) techniques and machine learning models to detect whether a news article is **real** or **fake**.
+
+---
 
 ## 🎯 Objective
 
-To build an intelligent system that can classify news articles into `real` or `fake` categories using **TF-IDF vectorization** and **Passive Aggressive Classifier** — a model suitable for large-scale binary classification tasks.
+To build an AI-powered classifier that distinguishes between fake and real news using TF-IDF text vectorization and a Passive Aggressive Classifier. This solution supports digital awareness initiatives by automating fake news detection.
 
 ---
 
-## 🧠 Technologies & Libraries Used
+## 🧠 Technologies & Tools Used
 
-- **Python**
-- **Google Colab**
-- **scikit-learn**
-- **NLTK** (stopwords)
-- **TF-IDF Vectorizer**
-- **Passive Aggressive Classifier**
-- **Matplotlib** & **Seaborn**
+- Python (Google Colab)
+- pandas, numpy
+- scikit-learn
+- nltk
+- matplotlib, seaborn
 
 ---
 
-## 📁 Project Files
+## 📁 Files in the Repository
 
 | File | Description |
 |------|-------------|
-| [`Fake_News_Detection.ipynb`](https://github.com/khushisharma-hub/Fake-News-Detection/blob/main/Fake_News_Detection.ipynb) | Complete Colab notebook with step-by-step code and explanation |
-| [`fake_news_data.csv`](https://github.com/khushisharma-hub/Fake-News-Detection/blob/main/fake_news_data.csv) | Dataset used to train and test the fake news classifier |
+| [`Fake_News_Detection.ipynb`](https://github.com/khushisharma-hub/Fake-News-Detection/blob/main/Fake_News_Detection.ipynb) | Jupyter Notebook with full implementation |
+| [`fake_news_data.csv`](https://github.com/khushisharma-hub/Fake-News-Detection/blob/main/fake_news_data.csv) | Dataset with 200 sample news entries (100 real, 100 fake) |
 
 ---
 
-## 📝 Features of the Project
+## 📊 Model Summary
 
-- Upload and preprocess real-world text data
-- Clean news text (removing punctuation, stopwords, lowercase conversion)
-- Convert text to numerical vectors using TF-IDF
-- Train a Passive Aggressive Classifier
-- Evaluate model using **accuracy**, **confusion matrix**, and **F1-score**
-- Test on custom input news to predict whether it's real or fake
+- **Model Used:** Passive Aggressive Classifier
+- **Vectorizer:** TF-IDF
+- **Accuracy Achieved:** ~92%
+- **Evaluation Metrics:** Accuracy, Confusion Matrix, F1-Score
 
 ---
 
-## 📊 Model Performance
+## 🧪 Features
 
-- **Classifier Used:** Passive Aggressive Classifier  
-- **Test Accuracy:** ~92%  
-- **Evaluation Metrics:** Accuracy Score, Confusion Matrix, F1 Score
+- Text preprocessing: lowercase, punctuation removal, stopword filtering
+- TF-IDF feature extraction
+- Passive Aggressive classifier training
+- Model evaluation using classification report and confusion matrix
+- Real-time prediction on custom input
 
 ---
 
-## 💡 Example Usage
+## 💻 Sample Prediction
 
 ```python
-predict_news("Breaking: Government announces major reforms in the education sector.")
-## 🧠 The news is predicted to be: **real**
+predict_news("Breaking: WHO approves new vaccine for pandemic response.")
+Output:
+🧠 The news is predicted to be: real
+
+📽️ Demo Video
+🎥 Click to Watch Demo Video
+
+🙋‍♀️ Developed By
+Khushi Sharma
+Intern ID: TS-RISE-MLAI-2514
+Internship Program: Tamizhan Skills Rise – Machine Learning & AI
+
+🔗 GitHub Repository
+👉 https://github.com/khushisharma-hub/Fake-News-Detection
