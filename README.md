@@ -55,7 +55,6 @@ predict_news("Breaking: WHO approves new vaccine for pandemic response.")
 Output:
 🧠 The news is predicted to be: real
 
----
 📽️ Demo Video
 🎥 Click to Watch Demo Video
 
