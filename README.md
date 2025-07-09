@@ -52,3 +52,4 @@ To build an intelligent system that can classify news articles into `real` or `f
 
 ```python
 predict_news("Breaking: Government announces major reforms in the education sector.")
+## 🧠 The news is predicted to be: **real**
